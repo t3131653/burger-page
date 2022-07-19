@@ -1,0 +1,28 @@
+.burger {
+	position: fixed;
+	top: 0;
+	left: -100vw;
+	height: 100vh;
+	padding: 0 16px;
+	max-width: 375px;
+	width: 100%;
+	transition: all .5s ease;
+}
+
+.burger[data-open="open"] {
+	position: relative;
+	left: 0;
+}
+
+.burger__nav {}
+
+.burger__divider {
+	width: 100%;
+	height: 1px;
+	background: var(--main-control);
+}
+
+.burger__mode {
+	padding: 24px 0;
+	pointer-events: auto;
+}
